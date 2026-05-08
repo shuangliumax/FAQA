@@ -8,7 +8,7 @@ def parse_args():
     parser.add_argument('--log_ckpt_name', dest='log_ckpt_name',
                         help='saved log and ckpt dir name',
                         default='reproduction_FDDG_SDG_ls_ssdd_to_sen', type=str)
-    # 在parse_args()函数中添加
+    # 在parse_args()
     #======================================================================
     parser.add_argument('--dataset', dest='dataset',
                         help='source training dataset',
