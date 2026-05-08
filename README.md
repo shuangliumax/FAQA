@@ -1,4 +1,5 @@
 # Towards Generalized Spaceborne SAR Ship Detection via Fourier-based Perturbation Augmentation and Quality-Aware Invariance Learning
+Official PyTorch implementation accompanying our submitted manuscript to *ISPRS Journal of Photogrammetry and Remote Sensing (ISPRS)*.
 ## Abstract
 Synthetic aperture radar (SAR) ship detection is essential for maritime situational awareness. As spaceborne SAR platforms continue to expand, there is an urgent demand for detectors that can generalize to new or unseen platforms. However, existing methods are typically tailored to specific platforms and suffer significant performance degradation on unseen data due to inherent distribution shifts and limited generalization ability. To alleviate this, we propose a generalized SAR ship detection framework through Fourier-based perturbation Augmentation and Quality-Aware invariance learning, termed FAQA. FAQA aims to integrate multiple platform SAR data to learn generalized ship representations, boosting detection on previously unseen data. Specifically, our framework consists of three key components:
 
